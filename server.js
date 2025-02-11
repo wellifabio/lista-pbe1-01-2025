@@ -69,7 +69,7 @@ app.post('/crescente', (req, res) => {
     res.json({ crescente });
 });
 
-// Faça os 9 exercícios aqui
+// Continue fazedo os outros exercícios aqui
 
 app.listen(4000, () => {
     console.log('API rodando em http://localhost:4000');
