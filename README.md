@@ -1,4 +1,4 @@
-# Lista de exercícios
+# SEDUC SESI - PBE1 - Lista de exercícios 01 2025
 ## 3DES primeira semana (Backend - Insomnia)
 - 1 Desenvolva um endpoint que calcule desconto de INSS de um funcionário, se o salário for menor ou igual a 1212,00 reais será de 7,5%, se estiver entre 1212,01 e 2427,35 será de 9%, se estiver entre 2427,36 e 3641,03 o desconto é 12%, se estiver entre 3641,04 e 7087,22 será de 14% e se for maior do que 7087,22 o teto que é o máximo cobrado 14% de 7087,22. Mostre o desconto e o valor do salário final.
 
@@ -26,3 +26,10 @@
 - NodeJS
 - VsCode
 - Insomnia
+
+## Como testar
+- Clone o repositório
+- Abra o projeto no VsCode
+- Em um terminal **cmd** ou **bash** digite `npm install` para instalar as dependências
+- Após a instalação das dependências, digite `npm start ou npx nodemon` para iniciar o servidor
+- Abra o Insomnia, importe o arquivo insomnia.json e teste os endpoints
